@@ -86,7 +86,6 @@ void setup() {
   Serial.begin(115200);
   delay(1000);
 
-  // Camera configuration
   camera_config_t cfg{};
   cfg.ledc_channel = LEDC_CHANNEL_0;
   cfg.ledc_timer   = LEDC_TIMER_0;
